@@ -1,0 +1,334 @@
+@font-face {
+	font-family: "Peace Sans";
+	src: url("peace-sans.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+.gap-small{
+    gap: 2px;
+}
+.header-title{
+    color: #D31627;
+    text-align: center;
+    font-family: Peace Sans;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    padding-top: 9%;
+
+}
+.header-description{
+    color: #CF443D;
+    text-align: center;
+    font-family: Peace Sans;
+    font-size: 2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    float: right;
+    margin-right: 3%;
+    margin-top: -2px;
+}
+.top-block {
+    background-image: url("background-top-block.svg");
+    background-size: contain;
+    height: 111px;
+    background-repeat: no-repeat;
+    background-color: #F5F4EF;
+}
+body{
+    width: 100px;
+   
+    flex-shrink: 0;
+}
+.creators{
+    background-image: url("lights.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 21px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0.1px solid #82817C;
+    background-color: #F2B6B6;
+    margin-top: -9px;
+    
+
+}
+.letter {
+    color: #FFFDEE;
+    font-family: Peace Sans;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 11.11%;
+    text-align: center;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+.red-letter {
+    color: #D40D1C;
+    padding-left: 1px;
+} 
+.creator-names {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.background-coub{
+    background-image: url("coub.svg");
+    background-size: 10px 10px;
+    background-repeat: repeat;
+}
+.background-wok{
+    background-image: url("wok.svg");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wok{
+    width: 42px;
+    height: 42px;
+    border: 0.3px solid #82817C;
+    background-color: #F5F4EF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.name{
+    color: #CF443D;
+    text-align: center;
+    font-family: Peace Sans;
+    font-size: 2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5px; /* 125% */
+    margin-bottom: 5px;
+    width: 42%;
+    margin-right: 1px;
+}
+.about-font{
+   height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.about-font__title{
+    color: #D31627;
+    text-align: center;
+    font-family: Peace Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    padding-top: 10px;
+}
+.about-font__description{
+    color: #FFFDEE;
+    text-align: center;
+    font-family: Peace Sans;
+    font-size: 5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.about-font__description-wrap{
+    background-image: url(arrow.svg);
+    width: 43px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+    margin-right: 21px;
+    position: relative;
+    z-index: 2;
+}
+.about-font__wrap{
+    background-image: url('lattice.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 42px;
+    border: 0.3px solid #82817C;
+    width: 92px;
+    background-color: #F5F4EF;
+}
+.font-letter{
+    display: flex;
+    width: 100%;
+    transform: translateY(-7.98px);
+    margin-top: 5px;
+    justify-content: center;
+    gap: 1px;
+    padding-top: 5px;
+}
+.normal-font{
+    color: #D31B29;
+    text-align: center;
+    font-family: Peace Sans;
+    font-size: 2.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 3px 2px 2px 3px ;
+}
+.normal-font-new{
+    padding: 2px 1px;
+}
+.medium-font{
+    color: #D31B29;
+    text-align: center;
+    font-family: Peace Sans;
+    font-size: 3.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.big-font{
+text-align: center;
+}
+.left-block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 55px;
+}
+.right-block{
+    width: 100%;
+    max-width: 35px;
+    margin-top: -2px;
+}
+.left-block__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.border-style{
+    border: 0.3px solid #82817C;
+    background: #F5F4EF;
+}
+
+.right-block__top{
+    padding: 1px;
+    margin-bottom: 2px;
+}
+.right-block__bottom{
+    padding: 2px 0px;
+}
+.left-block__bottom-left{
+    height: 100%;
+    width: 31px;
+    height: 34px;
+}
+.left-block__bottom-contain{
+    margin-bottom: 3.9px;
+}
+.left-block__bottom-right{
+    height: 34px;
+}
+.food{
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    justify-content: space-between;
+    margin-top: -8px;
+    margin-bottom: 9px;
+}
+.title-vk{
+    padding-top: 0px;
+}
+.food-right__soup,.food-left__soup{
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+}
+.numbers {
+    background-image: url(numbers.svg);
+    border:none;
+}
+.letter-rotate{
+    transform: rotate(-31.616deg);
+}
+.numbers-list{
+    background-image: url("pelm.svg");
+    background-size: 10px 10px;
+    background-repeat: repeat;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numbers-list__content{
+    width: 47px;
+    height: 28px;
+    border: 0.3px solid #82817C;
+    background: #F5F4EF;
+}
+.numbers-list__item{
+    padding: 0;
+    word-break: break-all;
+}
+.glifs-plate{
+    text-align: center;
+
+}
+.glifs{
+    height: 30px;
+    background: #F5F4EF;
+    border: 0.3px solid #82817C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glif-letters{
+    color: #D40D1C;
+    text-align: center;
+    font-family: Peace Sans;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.glif-letters__gray{
+    color: #82817C;
+}
+.top-plate{
+    margin-top: 1px ;
+}
+.bottom-plate{
+    margin-top: -9px;
+    width: 56px;
+}
+.glifs-image{
+    margin-left: 20px;
+    margin-top: -18px;
+    width: 70%;
+}
+.footer{
+    padding: 3px 4px 3px 5px;
+    background: #F2B6B6;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-footer{
+    color: #FFF;
+    font-family: Peace Sans;
+    font-size: 2.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 21%;
+}
+.new-border{
+
+}
